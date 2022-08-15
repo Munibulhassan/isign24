@@ -113,6 +113,7 @@ export default function Signup() {
                       type="login"
                       class=" login_btn"
                       onClick={(e) => userSignup(e)}
+                      style={{"font-size":"18px"}}
                     >
                       Sign Up
                     </button>
@@ -123,8 +124,10 @@ export default function Signup() {
                       type="login"
                       onClick={() => navigate("/google")}
                       class="btn google_btn"
+                      style={{"font-size":"18px"}}
+
                     >
-                      <img src={google} class="google_icon_login goolge_signup" /> Sign Up with
+                      <img src={google} class="goolge_signup" /> Sign Up with
                       Google
                     </button>
                   </form>

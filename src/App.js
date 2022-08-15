@@ -1,4 +1,5 @@
 import "./App.css";
+import Signup from "./pages/Signup/Signup";
 import Login from "./pages/Login/Login";
 import Setting from "./pages/Setting/Setting";
 import Team from "./pages/Team/Team";
@@ -6,7 +7,6 @@ import Signature from "./pages/Signature/Signature";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Agreement from "./pages/Agreement/Agreement";
 // import "./responsive.css"s
-import Signup from "./pages/Signup/Signup";
 function App() {
   return (
     <BrowserRouter>

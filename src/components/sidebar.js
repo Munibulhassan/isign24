@@ -110,7 +110,7 @@ export default function Sidebar() {
           onClick={handleShow}
           style={{ background: "white", border: "none" }}
         >
-          <img src={toggle} style={{ width: "30px", height: "30px" }} />
+          <img src={toggle} className="toggle_icon" />
         </Button>
 
         <Offcanvas show={show} onHide={handleClose}>

@@ -13,7 +13,7 @@
     left: 28%;
     top: 87%;
   } */
-    .google_icon_login {
+    .google_icon_login ,.goolge_signup{
         width: 3%;
         position: absolute;
         left: 32%;
@@ -28,7 +28,7 @@
         top: 48.5%;
         width: 6%;
     }
-    .google_icon_login {
+    .google_icon_login ,.goolge_signup{
         width: 3%;
         position: absolute;
         left: 30%;
@@ -43,7 +43,7 @@
         top: 46.5%;
         width: 6%;
     }
-    .google_icon_login {
+    .google_icon_login .goolge_signup{
         width: 3%;
         position: absolute;
         left: 30%;
@@ -60,9 +60,15 @@
         font-size: 18px;
     }
     .google_icon_login {
-        width: 3%;
+        width: 4%;
         position: absolute;
-        left: 30%;
+        left: 28%;
+        top: 82%;
+    }
+    .goolge_signup{
+        width: 4%;
+        position: absolute;
+        left: 28%;
         top: 82%;
     }
 }
@@ -91,6 +97,12 @@
     }
 
     .google_icon_login {
+        width: 3%;
+        position: absolute;
+        left: 27%;
+        top: 82%;
+    }
+    .goolge_signup{
         width: 3%;
         position: absolute;
         left: 27%;
@@ -133,11 +145,23 @@
         left: 25%;
         top: 82%;
     }
+    .goolge_signup{
+        width: 4%;
+        position: absolute;
+        left: 20%;
+        top: 82%;
+    }
 
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .google_icon_login {
+        width: 4%;
+        position: absolute;
+        left: 20%;
+        top: 82%;
+    }
+    .goolge_signup{
         width: 4%;
         position: absolute;
         left: 20%;
@@ -152,7 +176,7 @@
         margin-top: 30px;
  
     }
-    .google_icon_login {
+    .google_icon_login ,.goolge_signup{
         width: 4%;
         position: absolute;
         left: 20%;
@@ -200,6 +224,12 @@
         margin-top: 30px;
 
     }
+    .goolge_signup{
+        width: 4%;
+        position: absolute;
+        left: 15%;
+        top: 83%;
+    }
 }
 
 @media only screen and (min-width: 361px) and (max-width: 375px) {
@@ -225,6 +255,12 @@
         top: 23%;
         width: 6%;
     }
+    .goolge_signup{
+        width: 5%;
+        position: absolute;
+        left: 14%;
+        top: 83%;
+    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 360px) {
@@ -232,8 +268,14 @@
         padding: 0% 6% !important;
         position: relative;
     }
-    .google_icon_login {
+    .goolge_signup{
         width: 4%;
+        position: absolute;
+        left: 20%;
+        top: 82%;
+    }
+    .google_icon_login {
+        width: 5%;
         position: absolute;
         left: 20%;
         top: 82%;
@@ -258,7 +300,12 @@
         left: 10%;
         top: 82%;
     }
-    
+    .goolge_signup{
+        width: 7%;
+        position: absolute;
+        left: 9%;
+        top: 82%;
+    }
     #login_page .login_form .eyelash {
         position: absolute;
         right: 15%;

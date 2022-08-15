@@ -8,6 +8,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.toggle_icon{
+  width: 30px;
+  height: 30px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -463,18 +467,13 @@
 #login_page .login_side {
   padding: 0% 7%;
 }
-.google_icon {
+.google_icon_login ,.goolge_signup{
   width: 3%;
   position: absolute;
-  left: 31%;
-  top: 86%;
+  left: 32%;
+  top: 81%;
 }
-.google_icon_new {
-  width: 4%;
-  position: absolute;
-  left: 23%;
-  top: 94.5%;
-}
+
 #login_page {
   /* overflow: hidden; */
   height: 100vh;
@@ -570,7 +569,7 @@
   font-weight: 500;
 }
 .agree-document {
-  margin-top: 40px;
+  margin-top: 25px;
 }
 .agree-document .result-count {
   font-size: 25px;

@@ -15,7 +15,7 @@ import "./Agreement.css"
 
 import { Modal } from "react-bootstrap";
 export default function Agreement() {
-  const [status, setstatus] = useState(false);
+  const [status, setstatus] = useState(true);
   const [tab, settab] = useState(1);
   const [content, setcontent] = useState();
   const [show, setShow] = useState(false);
@@ -123,10 +123,13 @@ export default function Agreement() {
                   </div>
                 </div>
                 <div className="agree-document">
+                <div className ="listing">
+                  
                   <p className="result-count" 
                   >1-4 of 8 results</p>
+                </div>
                   <div className="agree-menu">
-                    <button type="button" className="btn upgrade" style={{"marginLeft":"15px"}}>
+                    <button type="button" className="btn upgrade more-sign">
                       Buy more signs
                       <img src={rightarrow} />
                     </button>

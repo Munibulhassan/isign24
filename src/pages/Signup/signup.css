@@ -29,5 +29,11 @@
   .header .free_button {
       width: 54%;
   }
+  .goolge_signup{
+    width: 7%;
+    position: absolute;
+    left: 10%;
+    top: 82%;
+  }
 
 }
