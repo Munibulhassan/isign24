@@ -15,7 +15,7 @@ import "./Agreement.css"
 
 import { Modal } from "react-bootstrap";
 export default function Agreement() {
-  const [status, setstatus] = useState(true);
+  const [status, setstatus] = useState(false);
   const [tab, settab] = useState(1);
   const [content, setcontent] = useState();
   const [show, setShow] = useState(false);
@@ -288,7 +288,7 @@ export default function Agreement() {
             ) : (
               <div className="sign">
                 {tab == 1 ? (
-                  <div className="sign-menu ">
+                  <div className="sign-menu agree-m">
                     <h1 className="active-sign-menu agreement-white-title" >Calculate & Text Base</h1>
                     <p className="active-sign-menu">
                       Lorem Ex qui mollit officia aliqua do officia deserunt id
@@ -297,7 +297,7 @@ export default function Agreement() {
                     <img src={calculateblue} />
                   </div>
                 ) : (
-                  <div className="sign-menu" onClick={() => settab(1)}>
+                  <div className="sign-menu agree-m" onClick={() => settab(1)}>
                     <h1 className="agreement-white-title">Calculate & Text Base</h1>
                     <p>
                       Lorem Ex qui mollit officia aliqua do officia deserunt id
@@ -307,7 +307,7 @@ export default function Agreement() {
                   </div>
                 )}
                 {tab == 2 ? (
-                  <div className="sign-menu">
+                  <div className="sign-menu agree-m">
                     <h1 className="active-sign-menu agreement-white-title">Text Base Argument</h1>
                     <p className="active-sign-menu">
                       Lorem Ex qui mollit officia aliqua do officia deserunt id
@@ -316,7 +316,7 @@ export default function Agreement() {
                     <img src={textblue} />
                   </div>
                 ) : (
-                  <div className="sign-menu" onClick={() => settab(2)}>
+                  <div className="sign-menu agree-m" onClick={() => settab(2)}>
                     <h1 className="agreement-white-title">Text Base Argument</h1>
                     <p>
                       Lorem Ex qui mollit officia aliqua do officia deserunt id
@@ -327,7 +327,7 @@ export default function Agreement() {
                 )}
 
                 {tab == 3 ? (
-                  <div className="sign-menu bulk_sign">
+                  <div className="sign-menu bulk_sign agree-m">
                     <h1 className="active-sign-menu agreement-white-title">Upload File</h1>
                     <p className="active-sign-menu">
                       Lorem Ex qui mollit officia aliqua do officia deserunt id
@@ -336,7 +336,7 @@ export default function Agreement() {
                     <img src={uploadblue} />
                   </div>
                 ) : (
-                  <div className="sign-menu" onClick={() => settab(3)}>
+                  <div className="sign-menu agree-m" onClick={() => settab(3)}>
                     <h1 className="agreement-white-title">Upload File</h1>
                     <p>
                       Lorem Ex qui mollit officia aliqua do officia deserunt id

@@ -1,4 +1,3 @@
-
 .App {
   text-align: center;
   background-color: #fff;
@@ -8,7 +7,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-.toggle_icon{
+.toggle_icon {
   width: 30px;
   height: 30px;
 }
@@ -35,10 +34,10 @@
 }
 
 .sidecontainer {
-  padding-left: 100px;
+  padding-left: 5%;
 }
 .containe {
-  width: 90% !important;
+  width: 100% !important;
   height: 100vh;
   background-color: #fff;
   position: absolute;
@@ -84,7 +83,6 @@
   color: #3c9adf;
 }
 
-
 .logo {
   height: 100px;
   width: 100px;
@@ -93,7 +91,7 @@
 /* signature */
 
 .content {
-  padding: 0px 20px;
+  padding: 0 5% 0 5%;
 }
 
 .upgrade:hover {
@@ -126,8 +124,8 @@
   padding: 3px;
 }
 .profile-img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: #fff solid 2px;
   box-shadow: #f1f1f1 1px 2px 2px;
@@ -135,6 +133,8 @@
 }
 .notify {
   margin-left: 10px;
+  width: 40px;
+  height: 40px;
 }
 .signatureheading {
   font-size: 35px;
@@ -145,7 +145,8 @@
 .sign {
   display: flex;
 }
-.upload {
+.upload,
+.team-icon {
   display: flex;
 }
 .sign-menu {
@@ -195,9 +196,14 @@
   font-weight: 500;
   font-size: 20px;
 }
-.sign-document p {
+.sign-document p,
+.team p {
   font-size: 16px;
   color: #b8b8b8;
+  text-align: center;
+}
+.team-document {
+  display: flex;
 }
 .signinput {
   margin-top: 30px;
@@ -241,14 +247,14 @@
   align-items: flex-start;
 }
 .drop button {
-  
-  margin-left: 5%;
+  margin-left: 30%;
 }
 .drop h1 {
   margin-top: 15px;
   text-align: center;
   color: #3c9adf;
   font-size: 25px;
+  margin-left: 23%;
 }
 .gdrive,
 .onedrive {
@@ -278,7 +284,6 @@
 .onedrive p {
   font-size: 25px;
   font-weight: 500;
-  width: max-content;
 }
 
 /* /// */
@@ -467,7 +472,8 @@
 #login_page .login_side {
   padding: 0% 7%;
 }
-.google_icon_login ,.goolge_signup{
+.google_icon_login,
+.goolge_signup {
   width: 3%;
   position: absolute;
   left: 32%;
@@ -512,13 +518,12 @@
 /*login page css end*/
 
 /* Agreement */
-.agreeheading{
+.agreeheading {
   font-size: 35px;
   color: #3b9be2;
   font-weight: 500;
-  
 }
-.agree-folder{
+.agree-folder {
   margin-top: 10px;
 }
 .agreement-size {
@@ -558,11 +563,10 @@
 .contract {
   margin-left: 10px;
 }
-.agree-document-icon{
+.agree-document-icon {
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
-
 }
 .agree-document-icon .result-count {
   font-size: 25px;
@@ -697,30 +701,101 @@
 }
 
 /*Setting page css*/
-.save_btn { margin-top: 30px; }
-.sinature_tabs .nav-item {position: relative;}
-.settings_page >:last-child {margin-bottom: 50px;}
-.settings_page >:nth-child(2) {margin-bottom: 45px;}
-.sign-document {max-width: 80%;margin-bottom: 30px;}
-.sinature_tabs #justify-tab-example-tab-home { border: none; }
-.sinature_tabs #justify-tab-example-tab-home {color: #202020;}
-.sinature_tabs #justify-tab-example-tab-profile:focus-visible { border: none; }
-.save_btn .upgrade {padding-left: 45px !important;padding-right: 45px !important;}
-.sinature_tabs #justify-tab-example-tab-longer-tab { border: none; color:#202020; }
-.sinature_tabs button#justify-tab-example-tab-profile { border: none; color:#202020;}
-.sinature_tabs #justify-tab-example-tab-profile:hover { border: none; color:#202020; }
-.enable-unable-btn {display: flex !important; justify-content: space-between; width: 54%;}
-.sinature_tabs .nav-tabs { border: none; border-bottom: 4px solid #e5dcdc; width: 80%; }
-.settings_page h1 { margin-top: 10px; font-weight: 500; font-size: 20px; margin-bottom: 20px; }
-.sinature_tabs .nav-tabs .nav-item {max-width: 210px; font-weight: bold; color: #000 !important;}
+.save_btn {
+  margin-top: 30px;
+}
+.sinature_tabs .nav-item {
+  position: relative;
+}
+.settings_page > :last-child {
+  margin-bottom: 50px;
+}
+.settings_page > :nth-child(2) {
+  margin-bottom: 45px;
+}
+.sign-document {
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+.sinature_tabs #justify-tab-example-tab-home {
+  border: none;
+}
+.sinature_tabs #justify-tab-example-tab-home {
+  color: #202020;
+}
+.sinature_tabs #justify-tab-example-tab-profile:focus-visible {
+  border: none;
+}
+.save_btn .upgrade {
+  padding-left: 45px !important;
+  padding-right: 45px !important;
+}
+.sinature_tabs #justify-tab-example-tab-longer-tab {
+  border: none;
+  color: #202020;
+}
+.sinature_tabs button#justify-tab-example-tab-profile {
+  border: none;
+  color: #202020;
+}
+.sinature_tabs #justify-tab-example-tab-profile:hover {
+  border: none;
+  color: #202020;
+}
+.enable-unable-btn {
+  display: flex !important;
+  justify-content: space-between;
+  width: 70%;
+}
+.sinature_tabs .nav-tabs {
+  border: none;
+  width: 80%;
+}
+.settings_page h1 {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.sinature_tabs .nav-tabs .nav-item {
+  max-width: 210px;
+  font-weight: bold;
+  color: #000 !important;
+}
+.settings_radio_btn {
+  display: flex;
+  flex-direction: column;
+}
+.form-check {
+  display: flex;
+  flex-direction: row;
+}
+.form-check-inline {
+  margin-left: 5%;
+}
+.form-check-inline .enable-btn label,
+.form-check-inline .unable-btn label {
+  margin-left: 4px;
+}
+.unable-btn {
+  margin-left: 20%;
+}
 /* #justify-tab-example-tab-home:focus {border-bottom: 4px solid #3B9BE2; position: absolute; width: 123px; left: 111.3px;} */
-.setting_input .redirecting { width: 49%; padding: 10px 20px; border-radius: 10px; border: 2px solid #f1f1f1; box-shadow: #f1f1f1 1px 1px 1px; margin: 2% 0%; }
+.setting_input .redirecting {
+  width: 49%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+  box-shadow: #f1f1f1 1px 1px 1px;
+  margin: 2% 0%;
+}
 /*Setting page css*/
 
+.sinature_tabs .nav-tabs li .active {
+  border-bottom: 4px solid #3b9add !important;
+}
 
-
-.sinature_tabs .nav-tabs li .active {border-bottom: 4px solid #3b9add !important;}
-
-
-.toggle_btn { margin-top: 25px; 
-position: absolute;}
+.toggle_btn {
+  margin-top: 25px;
+  position: absolute;
+}

@@ -29,7 +29,6 @@ export default function Signature() {
               {status == "1" ? (
                 <div className="sign-menu">
                 <div className="sign-menu-content only-me">
-
                   <h1 className="active-sign-menu">Only Me</h1>
                   <p className="active-sign-menu">
                     Lorem Ex qui mollit officia aliqua do officia deserunt id
@@ -151,6 +150,7 @@ export default function Signature() {
 
                 <div className="upload">
                   <div className="drop">
+
                     <button type="button" className="btn upgrade">
                       Upload here
                       <img src={rightarrow} />

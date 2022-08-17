@@ -197,7 +197,7 @@ export default function Sidebar() {
                 </li>
               )}
             </ul>
-            <button type="button" className="btn upgrade">
+            <button type="button" className="btn upgrade" style={{"width":"70%"}}>
               Upgrade <img alt="" src={rightarrow} />
             </button>
           </Offcanvas.Body>

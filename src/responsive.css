@@ -34,43 +34,7 @@
     left: 35%;
     top: 83%;
   }
-  .sign-menu h1 {
-    margin-top: 3%;
-    font-size: 20px;
-    margin-left: 7%;
-    width: 8%;
-  }
-  .sign-menu p {
-    margin-top: 7%;
-    font-size: 13px;
-    margin-left: 8%;
-    width: 9%;
-  }
-  .sign-document {
-    max-width: 100%;
-  }
-  .upload .drop {
-    width: 60%;
-  }
-  .upload .gdrive {
-    width: 20%;
-  }
-  .upload .onedrive {
-    width: 20%;
-  }
-  .signature_page .sign-menu {
-    max-width: 35%;
-  }
 
-  .signature_page .me_team {
-    margin: 0% 7%;
-  }
-  .signature_page .bulk_sign {
-    margin: 0% 7%;
-  }
-  .signature_page .col-md-8 {
-    max-width: 85% !important;
-  }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -195,11 +159,6 @@
     position: absolute;
     left: 9%;
     top: 95.5%;
-  }
-}
-@media only screen and (max-width: 786px) and (min-width: 768) {
-  .content {
-    padding: 0px 0px !important;
   }
 }
 
@@ -533,46 +492,7 @@
   }
 }
 
-@media only screen and (max-width: 786px) {
-  .sign {
-    display: block;
-  }
-  .signature_page .sign-menu {
-    max-width: 50%;
-  }
-  .sign-menu p {
-    font-size: 20px;
-    margin-left: 17%;
-    width: 35%;
-    margin-top: 14%;
-  }
-  .sign-menu h1 {
-    font-size: 27px;
-    margin-left: 16%;
-    margin-top: 5%;
-    width: 33%;
-  }
-  .drop button {
-    margin-right: auto;
-    margin-left: 0%;
-  }
-  .drop h1 {
-    margin-top: 15px;
-    text-align: center;
-    color: #3c9adf;
-    font-size: 20px;
-  }
-  .gdrive p,
-  .onedrive p {
-    font-size: 17px;
-    font-weight: 500;
-    width: max-content;
-    margin-left: -48%;
-  }
-  .upload .onedrive img {
-    margin-left: -28%;
-  }
-}
+
 
 @media only screen and (max-width: 768px) {
   .sign-menu h1 {
