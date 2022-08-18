@@ -9,10 +9,10 @@ import { Tab, Tabs } from "react-bootstrap";
 export default function Setting() {
   return (
     <div className="Row containe">
-      <div className="col-md-4">
+      <div className="col-lg-2 col-md-4">
         <Sidebar />
       </div>
-      <div className="col-md-8 signature_profile">
+      <div className="col-lg-10 col-md-8 signature_profile">
         <div className="content">
         <Profile />
         <p className="signatureheading">Settings</p>

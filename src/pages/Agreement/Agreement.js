@@ -62,13 +62,30 @@ export default function Agreement() {
   return (
     <>
       <div className="Row containe">
-        <div className="col-md-4">
+        <div className="col-lg-2 col-md-4">
           <Sidebar />
         </div>
-        <div className="col-md-8 signature_profile">
+        <div className="col-lg-10 col-md-8 signature_profile">
           <div className="content">
             <Profile />
             <p className="signatureheading">Agreements</p>
+            {status==true?(
+            <div className="team-document">
+
+            <div className="team">
+              <p>
+              
+              </p>
+            </div>
+            <div className="team-menu">
+              <button type="button" className="btn upgrade" style={{"width":"max-content"}} onClick={()=>setstatus(!status)}>
+                View list
+                <img src={rightarrow} />
+              </button>
+            </div>
+          </div>
+            )
+            :null}
             {!status ? (
               <>
                 <div className="sign-document">
@@ -133,7 +150,7 @@ export default function Agreement() {
                       Buy more signs
                       <img src={rightarrow} />
                     </button>
-                    <button type="button" className="btn upgrade contract">
+                    <button type="button" className="btn upgrade contract" onClick={()=>setstatus(!status)}>
                       Create Contract
                       <img src={rightarrow} />
                     </button>
@@ -249,7 +266,7 @@ export default function Agreement() {
                     <button
                       type="button"
                       className="btn upgrade"
-                      onClick={() => setstatus(true)}
+                      
                     >
                       Create Folder
                       <img src={rightarrow} />

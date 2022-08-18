@@ -9,10 +9,10 @@ import "./team.css"
 export default function Team() {
   return (
     <div className="Row containe">
-      <div className="col-md-4 team_container">
+      <div className="col-lg-2 col-md-4 team_container">
         <Sidebar />
       </div>
-      <div className="col-md-8">
+      <div className="col-lg-10 col-md-8">
         <div className="content team_content">
     <Profile/>
 

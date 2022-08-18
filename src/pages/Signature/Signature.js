@@ -18,10 +18,10 @@ export default function Signature() {
   return (
     
       <div className="Row containe">
-        <div className="col-md-4">
+        <div className="col-lg-2 col-md-4">
           <Sidebar />
         </div>
-        <div className="col-md-8 signature_profile">
+        <div className="col-lg-10 col-md-8 signature_profile">
           <div className="content">
             <Profile />
             <p className="signatureheading">Signature</p>
@@ -106,14 +106,15 @@ export default function Signature() {
 
             {status == "1" || status == "2" ? (
               <>
-                <div className="sign-document">
+                <div className="sign-document signatureinput">
                   <h1>Prepare your documents from signing</h1>
-                  <div className="signinput">
+                  <div className="signinput signatureinput">
                     <input type="email" placeholder="Email Address of viewer" />
                     <input
                       type="text"
                       placeholder="Document Title to identify your document."
                       style={{ marginLeft: "20px" }}
+                      
                     />
                   </div>
                   <textarea

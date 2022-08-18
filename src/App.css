@@ -247,14 +247,14 @@
   align-items: flex-start;
 }
 .drop button {
-  margin-left: 30%;
+  margin-left: 35%;
 }
 .drop h1 {
   margin-top: 15px;
   text-align: center;
   color: #3c9adf;
   font-size: 25px;
-  margin-left: 23%;
+  margin-left: 30%;
 }
 .gdrive,
 .onedrive {
@@ -284,6 +284,7 @@
 .onedrive p {
   font-size: 25px;
   font-weight: 500;
+  text-align: center;
 }
 
 /* /// */
